@@ -42,6 +42,10 @@ ul {
     color: white;
     font-size: 40px;
 }
+.content__title:hover {
+  font-size: 45px;
+  color: black;
+  }
 
 .navbar {
     display: flex;
@@ -55,6 +59,10 @@ ul {
     color: white ;
     font-weight: bold;
 }
+.navbar a:hover {
+  color: black;
+  font-size: 30px;
+  }
 
 /* body */
 
