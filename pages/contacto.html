@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style_contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contacto</title>
+</head>
+
+
+<body>
+    <header class="header">
+        <div class="header__content">
+            <h2>
+                <a href="../index.html" class="content__title"> Menu </a>
+            </h2>
+
+            <nav>
+                <ul class="navbar">
+                    <li> <a href="./nosotros.html" class="navbar__item">Nosotros</a></li>
+
+                    <li><a href="./producto.html" class="navbar__item">Nuestros productos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+        <main>
+            <section>
+                <h1 class="title">Registrese </h1>
+
+                <form action="">
+                    <div class="pais">
+                        <label for="pais" class="label__pais"> Selecciones su pais: </label>
+                        <select name="pais" id="pais">
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="C">C</option>
+                            <option value="D">D</option>
+                        </select>
+                    </div>
+
+                    <div class="datos">
+                        <label for="nombre">Ingrese su Nombre:</label>
+                        <input required type="text" class="register__input" name="nombre" id="nombre"
+                            placeholder="Ej: Francisco" />
+
+                        <label for="apellido">Ingrese su Apellido:</label>
+                        <input required type="text" class="register__input" name="apellido" id="apellido"
+                            placeholder="Ej: Perez">
+
+
+                        <label for="dni">Ingrese su DNI:</label>
+                        <input required type="text" class="register__input" name="dni" id="dni"
+                            placeholder="Ej: 23.456.789" />
+
+                        <label for="correo">Ingrese su email: </label>
+                        <input required type="email" class="register__input" name="correo" id="correo"
+                            placeholder="Ej: example@email.com">
+
+                        <label for="contraseña">Ingrese su contraseña: </label>
+                        <input required type="password" class="register__input" name="contraseña" id="contraseña"
+                            placeholder="Ej: contraseña123">
+
+                    </div>
+
+                    <fieldset class="fieldset__genero">
+                        <label class="genero"> Seleccione su genero: </label>
+                        <div class="div__genero">
+                            <div>
+                                <label for="mujer">Mujer </label>
+                                <input type="radio" id="mujer" name="genero" class="botoncito">
+                            </div>
+                            <div>
+                                <label for="hombre">Hombre </label>
+                                <input type="radio" id="hombre" name="genero" class="botoncito">
+                            </div>
+                            <div>
+                                <label for="ninguno">Prefiero no decirlo </label>
+                                <input type="radio" id="ninguno" name="genero" class="botoncito">
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <div class="sus__chexbox">
+                        <label for="suscripcion"> Suscribite para saber mas sobre nosotros</label>
+                        <input type="checkbox" id="suscripcion" class="botoncito box">
+                    </div>
+
+
+                    <div class="botones">
+                        <button class="boton" type="submit">Enviar </button>
+                        <button class="boton" type="reset"> Limpiar </button>
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="flex">
+    
+                <a target="_blank" class="contenedor_icono instagram" href="https://www.instagram.com/">
+                    <i class="fa-brands fa-instagram icono"></i>
+                </a>
+    
+                <a target="_blank" class="contenedor_icono whatsapp" href="https://web.whatsapp.com/">
+                    <i class="fa-brands fa-whatsapp icono"></i>
+                </a>
+    
+                <a target="_blank" class="contenedor_icono twitter" href="https://twitter.com/?logout=1654286273100"> 
+                    <i class="fa-brands fa-twitter icono"></i>
+                </a>
+    
+                <a target="_blank" class="contenedor_icono facebook"  href="https://m.facebook.com/?stype=lojlou=Afdgh2A35OC70R1-vNnmsu2jSO7zO_fVNvNf6JgQdTQlvLy0xh3Wl8dbPn2OR4mgz3aRsMTC7dz_Xy3V-38sEKgAwn0AQl8hONZq9f-aAZ-Pfg&smuh=3082&lh=Ac8e9372x0jvbr9iBYw&_rdr">
+                    <i class="fa-brands fa-facebook icono"></i>
+                </a>
+    
+            </div>
+        </footer>
+    </body>
+</html>
