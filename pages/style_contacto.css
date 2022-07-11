@@ -1,5 +1,5 @@
 * {
-    margin:0 ;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -13,7 +13,7 @@ html {
 .header {
     background-color: #E83A14;
     color: #e2e8f0;
-    padding: 30px 20px ;
+    padding: 30px 20px;
 }
 
 a {
@@ -22,7 +22,7 @@ a {
 
 p {
     line-height: 1.5;
-    font-size: 20px ;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px;
     padding: 0 auto;
@@ -42,10 +42,11 @@ ul {
     color: white;
     font-size: 40px;
 }
+
 .content__title:hover {
     font-size: 45px;
     color: black;
-    }
+}
 
 .navbar {
     display: flex;
@@ -56,56 +57,58 @@ ul {
 }
 
 .navbar li a {
-    color: white ;
+    color: white;
     font-weight: bold;
 }
+
 .navbar a:hover {
     color: black;
     font-size: 30px;
-    }
+}
 
 /* body */
 
 
 .title {
     display: inline-block;
-    display: inline-block;
     font-style: italic;
     font-size: 35px;
     text-decoration: underline;
-    padding: 0.8%;
+    padding: 1%;
     margin: 15px 0px 15px 0px;
     background-color: yellow;
     border-radius: 30px 0px 30px 0px;
     text-align: center;
     animation: registrese 1s ease 0s 2 normal forwards;
 }
+
 @keyframes registrese {
-	0%,
-	100% {
-		transform: translateX(0);
-	}
 
-	10%,
-	30%,
-	50%,
-	70% {
-		transform: translateX(-10px);
-	}
+    0%,
+    100% {
+        transform: translateX(0);
+    }
 
-	20%,
-	40%,
-	60% {
-		transform: translateX(10px);
-	}
+    10%,
+    30%,
+    50%,
+    70% {
+        transform: translateX(-10px);
+    }
 
-	80% {
-		transform: translateX(8px);
-	}
+    20%,
+    40%,
+    60% {
+        transform: translateX(10px);
+    }
 
-	90% {
-		transform: translateX(-8px);
-	}
+    80% {
+        transform: translateX(8px);
+    }
+
+    90% {
+        transform: translateX(-8px);
+    }
 }
 
 label {
@@ -130,7 +133,7 @@ label {
     justify-content: center;
     color: #fff;
     margin-bottom: 20px;
-    
+
 }
 
 .register__input {
@@ -142,10 +145,12 @@ label {
 
 
 .fieldset__genero {
-    background-color:  gray;
+    background-color: gray;
     padding: 20px;
     margin-bottom: 15px;
+    width: 500px;
 }
+
 .genero {
     font-style: italic;
     font-size: 20px;
@@ -168,6 +173,7 @@ label {
     border-radius: 50px;
     cursor: pointer;
 }
+
 .boton:hover {
     font-size: 15px;
     font-weight: bold;
@@ -179,9 +185,10 @@ label {
 
 .sus__chexbox {
     display: flex;
+    width: 545px;
     background-color: gray;
     align-items: center;
-    margin: 20px  0px;
+    margin: 20px 0px;
     font-size: 25px;
     font-weight: bold;
 }
@@ -208,7 +215,7 @@ label {
     background-color: #890F0D;
     /* Posicionamiento de los item */
     flex-direction: row-reverse;
-    position: relative ;
+    position: relative;
 }
 
 .contenedor_icono {
@@ -217,30 +224,91 @@ label {
     align-items: center;
     width: 80px;
     height: 80px;
-  /* borde */
+    /* borde */
     border-radius: 50%;
     margin: 10px;
     text-decoration: none;
-  }
+}
+
 /* color de fondo del item */
-  .icono {
+.icono {
     font-size: 50px;
     color: white;
-  }
-/* color de fondo del item */
-  .instagram {
-    background-color: pink;
-  }
-/* color de fondo del item */
-  .whatsapp {
-    background-color: green;
-  }
-/* color de fondo del item */
-  .twitter {
-    background-color: lightblue;
-  }
-/* color de fondo del item */
-  .facebook {
-    background-color: blue;
-  }
+}
 
+/* color de fondo del item */
+.instagram {
+    background-color: pink;
+}
+
+/* color de fondo del item */
+.whatsapp {
+    background-color: green;
+}
+
+/* color de fondo del item */
+.twitter {
+    background-color: lightblue;
+}
+
+/* color de fondo del item */
+.facebook {
+    background-color: blue;
+}
+
+/* BREAKPOINTS */
+
+@media (max-width: 768px) {
+    .header {
+        display: none;
+    }
+
+    .title {
+        width: 50%;
+    }
+
+    .sus__chexbox {
+        width: 545px;
+    }
+
+    .footer {
+        width: 765px;
+    }
+}
+
+@media (max-width: 545px) {
+    .title {
+        width: 70%;
+    }
+
+    .sus__chexbox {
+        width: 570px;
+    }
+
+    .footer {
+        width: 570px;
+    }
+
+    .fieldset__genero{
+        width: 570px;
+    }
+}
+
+@media (max-width: 320px) {
+    .title {
+        width: 70%;
+    }
+
+    .sus__chexbox {
+        width: 570px;
+    }
+
+    .footer {
+        width: 570px;
+    }
+
+    .fieldset__genero{
+        width: 570px;
+    }
+
+}
