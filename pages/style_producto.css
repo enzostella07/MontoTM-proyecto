@@ -41,9 +41,9 @@ ul {
 .content__title {
   color: white;
   font-size: 40px;
+  transition: all 1s;
 }
 .content__title:hover {
-  font-size: 45px;
   color: black;
 }
 
@@ -58,10 +58,10 @@ ul {
 .navbar li a {
   color: white;
   font-weight: bold;
+  transition: all 1s;
 }
 .navbar a:hover {
   color: black;
-  font-size: 30px;
   }
 
 /* Body */
