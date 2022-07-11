@@ -41,12 +41,12 @@ ul {
 .content__title {
     color: white;
     font-size: 40px;
-}
-
-.content__title:hover {
-    font-size: 45px;
+    transition: all 1s;
+  }
+  
+  .content__title:hover {
     color: black;
-}
+  }
 
 .navbar {
     display: flex;
@@ -59,12 +59,12 @@ ul {
 .navbar li a {
     color: white;
     font-weight: bold;
-}
-
-.navbar a:hover {
+    transition: all 1s;
+  }
+  
+  .navbar a:hover {
     color: black;
-    font-size: 30px;
-}
+  }
 
 /* body */
 
