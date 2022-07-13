@@ -39,7 +39,7 @@
                 <h1 class="title">Registrese </h1>
                 <form action="">
                     <div class="pais">
-                        <label for="pais" class="label__pais"> Selecciones su pais: </label>
+                        <label for="pais" class="pais__label"> Selecciones su pais: </label>
                         <select name="pais" id="pais">
                             <option value="A">A</option>
                             <option value="B">B</option>
@@ -50,31 +50,31 @@
 
                     <div class="datos">
                         <label for="nombre">Ingrese su Nombre:</label>
-                        <input required type="text" class="register__input" name="nombre" id="nombre"
+                        <input required type="text" class="datos__input" name="nombre" id="nombre"
                             placeholder="Ej: Francisco" />
 
                         <label for="apellido">Ingrese su Apellido:</label>
-                        <input required type="text" class="register__input" name="apellido" id="apellido"
+                        <input required type="text" class="datos__input" name="apellido" id="apellido"
                             placeholder="Ej: Perez">
 
 
                         <label for="dni">Ingrese su DNI:</label>
-                        <input required type="text" class="register__input" name="dni" id="dni"
+                        <input required type="text" class="datos__input" name="dni" id="dni"
                             placeholder="Ej: 23.456.789" />
 
                         <label for="correo">Ingrese su email: </label>
-                        <input required type="email" class="register__input" name="correo" id="correo"
+                        <input required type="email" class="datos__input" name="correo" id="correo"
                             placeholder="Ej: example@email.com">
 
                         <label for="contraseña">Ingrese su contraseña: </label>
-                        <input required type="password" class="register__input" name="contraseña" id="contraseña"
+                        <input required type="password" class="datos__input" name="contraseña" id="contraseña"
                             placeholder="Ej: contraseña123">
 
                     </div>
 
-                    <fieldset class="fieldset__genero">
-                        <label class="genero"> Seleccione su genero: </label>
-                        <div class="div__genero">
+                    <fieldset class="fieldset">
+                        <label class="fieldset__genero"> Seleccione su genero: </label>
+                        <div class="fieldset__div">
                             <div>
                                 <label for="mujer">Mujer </label>
                                 <input type="radio" id="mujer" name="genero" class="botoncito">
@@ -90,15 +90,15 @@
                         </div>
                     </fieldset>
 
-                    <div class="sus__chexbox">
+                    <div class="checkbox">
                         <label for="suscripcion"> Suscribite para saber mas sobre nosotros</label>
-                        <input type="checkbox" id="suscripcion" class="botoncito box">
+                        <input type="checkbox" id="suscripcion" class="checkbox__botoncito box">
                     </div>
 
 
                     <div class="botones">
-                        <button class="boton" type="submit">Enviar </button>
-                        <button class="boton" type="reset"> Limpiar </button>
+                        <button class="botones__boton" type="submit">Enviar </button>
+                        <button class="botones__boton" type="reset"> Limpiar </button>
                     </div>
                 </form>
             </section>

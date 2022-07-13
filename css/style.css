@@ -276,9 +276,8 @@ label {
 
 .pais {
   margin-bottom: 70px; }
-
-.label__pais {
-  color: white; }
+  .pais__label {
+    color: white; }
 
 .datos {
   display: flex;
@@ -286,47 +285,29 @@ label {
   justify-content: center;
   color: #fff;
   margin-bottom: 20px; }
+  .datos__input {
+    width: 300px;
+    height: 30px;
+    padding: 0px 5px;
+    margin-bottom: 10px; }
 
-.register__input {
-  width: 300px;
-  height: 30px;
-  padding: 0px 5px;
-  margin-bottom: 10px; }
-
-.fieldset__genero {
+.fieldset {
   background-color: gray;
   padding: 20px;
   margin-bottom: 15px;
   width: 500px; }
+  .fieldset__genero {
+    font-style: italic;
+    font-size: 20px;
+    margin: 0px 0px 15px 0px;
+    height: 20px;
+    display: inline-block; }
+  .fieldset__div {
+    display: flex;
+    width: 500px;
+    justify-content: space-between; }
 
-.genero {
-  font-style: italic;
-  font-size: 20px;
-  margin: 0px 0px 15px 0px;
-  height: 20px;
-  display: inline-block; }
-
-.div__genero {
-  display: flex;
-  width: 500px;
-  justify-content: space-between; }
-
-.boton {
-  color: #fff;
-  background-color: red;
-  padding: 15px;
-  margin: 0px;
-  border-radius: 50px;
-  cursor: pointer; }
-
-.boton:hover {
-  font-size: 15px;
-  font-weight: bold; }
-
-.botoncito {
-  cursor: pointer; }
-
-.sus__chexbox {
+.checkbox {
   display: flex;
   width: 545px;
   background-color: gray;
@@ -334,12 +315,24 @@ label {
   margin: 20px 0px;
   font-size: 25px;
   font-weight: bold; }
+  .checkbox__botoncito {
+    cursor: pointer; }
 
 .box {
   margin-left: 10px; }
 
 .botones {
   margin-bottom: 10px; }
+  .botones__boton {
+    color: #fff;
+    background-color: red;
+    padding: 15px;
+    margin: 0px;
+    border-radius: 50px;
+    cursor: pointer; }
+    .botones__boton:hover {
+      font-size: 13px;
+      font-weight: bold; }
 
 /* Fin Contacto */
 .flex {
@@ -391,3 +384,146 @@ label {
 /* color de fondo del item */
 .facebook {
   background-color: blue; }
+
+/* Medias Productos */
+@media (max-width: 768px) {
+  .header {
+    display: none;
+    width: 0 auto; }
+  .contenedor__titulos {
+    font-size: 15.2px; }
+  .subtitulo {
+    display: inline-block;
+    /* width: 50%; */
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: #d9cf3fda;
+    border-radius: 10px 0px 10px 0px; }
+  .texto {
+    font-size: 15px;
+    width: 100%; }
+  .nuestrosproductos {
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    background-color: yellow;
+    border-radius: 30px 0px 30px 0px;
+    text-align: center; }
+  .producto__grid {
+    grid-template-columns: repeat(1, 1fr); } }
+
+@media (max-width: 425px) {
+  .header {
+    display: none; }
+  .contenedor__titulos {
+    font-size: 15px; }
+  .nuestrosproductos {
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    background-color: yellow;
+    border-radius: 30px 0px 30px 0px;
+    text-align: center; }
+  .subtitulo {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: #d9cf3fda;
+    border-radius: 10px 0px 10px 0px; }
+  .texto {
+    font-size: 10px;
+    width: 100%; }
+  .producto__grid {
+    grid-template-columns: repeat(1, 1fr); } }
+
+/* Fin Productos */
+/* Medias Nosotros */
+@media (min-width: 768px) and (max-width: 872px) {
+  .videoyt {
+    width: 500px;
+    height: 280px; } }
+
+@media (min-width: 560px) and (max-width: 768px) {
+  .header {
+    display: none; }
+  .videoyt {
+    width: 400px;
+    height: 250px; } }
+
+@media (min-width: 425px) and (max-width: 560px) {
+  .header {
+    display: none; }
+  .montotm {
+    width: 560px; }
+  .quienessomos {
+    width: 560px; }
+  .videoyt {
+    width: 400px;
+    height: 200px; }
+  .footer {
+    width: 560px; } }
+
+@media (min-width: 375px) and (max-width: 425px) {
+  .header {
+    display: none; }
+  .montotm {
+    width: 560px; }
+  .quienessomos {
+    width: 560px; }
+  .videoyt {
+    height: 200px;
+    width: 400px;
+    box-shadow: none; }
+  .footer {
+    width: 560px; } }
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .header {
+    display: none; }
+  .montotm {
+    width: 570px; }
+  .quienessomos {
+    width: 560px;
+    height: 550px; }
+  .videoyt {
+    height: 250px;
+    width: 350px; }
+  .footer {
+    width: 560px; } }
+
+/* Fin Medias Nosotros */
+/* Media Contacto */
+@media (max-width: 768px) {
+  .header {
+    display: none; }
+  .title {
+    width: 50%; }
+  .checkbox {
+    width: 545px; }
+  .footer {
+    width: 765px; } }
+
+@media (max-width: 545px) {
+  .title {
+    width: 70%; }
+  .checkbox {
+    width: 615px; }
+  .footer {
+    width: 765px; }
+  .fieldset__genero {
+    width: 570px; } }
+
+@media (max-width: 319px) {
+  .title {
+    width: 70%; }
+  .checkbox {
+    width: 570px; }
+  .footer {
+    width: 570px; }
+  .fieldset__genero {
+    width: 570px; } }
+
+/* Fin media contacto */

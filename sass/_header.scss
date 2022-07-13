@@ -190,6 +190,8 @@ div {
         transform: translateY(-15px);
       } 
   }
+//Fin Producto
+
 
   /* Nosotros */
 .montotm {
@@ -286,10 +288,10 @@ div {
   
   .pais {
     margin-bottom: 70px;
-  }
-  
-  .label__pais {
-    color: white;
+
+    &__label {
+        color: white;
+      }
   }
   
   .datos {
@@ -298,57 +300,37 @@ div {
     justify-content: center;
     color: #fff;
     margin-bottom: 20px;
+
+    &__input {
+        width: 300px;
+        height: 30px;
+        padding: 0px 5px;
+        margin-bottom: 10px;
+      }
   
   }
   
-  .register__input {
-    width: 300px;
-    height: 30px;
-    padding: 0px 5px;
-    margin-bottom: 10px;
-  }
   
-  
-  .fieldset__genero {
+  .fieldset {
     background-color: gray;
     padding: 20px;
     margin-bottom: 15px;
     width: 500px;
+
+    &__genero {
+        font-style: italic;
+        font-size: 20px;
+        margin: 0px 0px 15px 0px;
+        height: 20px;
+        display: inline-block;
+      }
+      &__div {
+        display: flex;
+        width: 500px;
+        justify-content: space-between;
+      }
   }
-  
-  .genero {
-    font-style: italic;
-    font-size: 20px;
-    margin: 0px 0px 15px 0px;
-    height: 20px;
-    display: inline-block;
-  }
-  
-  .div__genero {
-    display: flex;
-    width: 500px;
-    justify-content: space-between;
-  }
-  
-  .boton {
-    color: #fff;
-    background-color: red;
-    padding: 15px;
-    margin: 0px;
-    border-radius: 50px;
-    cursor: pointer;
-  }
-  
-  .boton:hover {
-    font-size: 15px;
-    font-weight: bold;
-  }
-  
-  .botoncito {
-    cursor: pointer;
-  }
-  
-  .sus__chexbox {
+  .checkbox {
     display: flex;
     width: 545px;
     background-color: gray;
@@ -356,13 +338,33 @@ div {
     margin: 20px 0px;
     font-size: 25px;
     font-weight: bold;
+
+    &__botoncito {
+        cursor: pointer;
+      }
   }
   
   .box {
     margin-left: 10px;
-  }
+}
   
   .botones {
     margin-bottom: 10px;
+    &__boton {
+        color: #fff;
+        background-color: red;
+        padding: 15px;
+        margin: 0px;
+        border-radius: 50px;
+        cursor: pointer;
+    
+        &:hover {
+            font-size: 13px;
+            font-weight: bold;
+          }
+      }
   }
+  
+  
+  
   /* Fin Contacto */
