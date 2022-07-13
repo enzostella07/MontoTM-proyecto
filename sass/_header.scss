@@ -52,12 +52,13 @@
     border: solid 2px #D9CE3F;
     border-radius: 30px;
     margin: 20px 40px;
+
+    & a:hover {
+        transform: translateY(-5px);
+        background-color: rgba(232, 58, 20, 0.7);
+    }
 }
 
-.navbar__index a:hover {
-    transform: translateY(-5px);
-    background-color: rgba(232, 58, 20, 0.7);
-}
 
 .menu__index {
     color: white;
@@ -67,11 +68,15 @@
     padding: 5px 20px;
     width: 90%;
     transition: transform 0.5s;
+
+     &:hover {
+         transform: translateX(5px);
+     }
 }
 
-.menu__index:hover {
-    transform: translateX(5px);
-}
+// .menu__index:hover {
+//     transform: translateX(5px);
+// }
 
 .ul-index {
     display: grid;

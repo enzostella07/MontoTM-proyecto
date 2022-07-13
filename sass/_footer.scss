@@ -7,12 +7,15 @@
   }
   
   .footer {
+    height: 120px;
     width: 100%;
+    margin-top: 290px;
     /* Color del footer */
     background-color: #890F0D;
     /* Posicionamiento de los item */
     flex-direction: row-reverse;
     position: relative;
+    bottom: 0;
   }
   
   .contenedor_icono {
