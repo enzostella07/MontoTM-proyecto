@@ -1,82 +1,11 @@
 /* Globales */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-img {
-  display: inline-block;
-}
-
-html {
-  font-family: 'Inconsolata', monospace;
-  background-color: #630606;
-  background-size: contain;
-
-}
-
-.header {
-  background-color: #E83A14;
-  color: #e2e8f0;
-  padding: 30px 20px;
-}
-
-a {
-  font-size: 28px;
-}
-
-p {
-  line-height: 1.5;
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  padding: 0 auto;
-}
-
-ul {
-  list-style-type: none;
-}
-
-.header__content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.content__title {
-  color: white;
-  font-size: 40px;
-  transition: all 1s;
-}
-
-.content__title:hover {
-  color: black;
-}
-
-.navbar {
-  display: flex;
-}
-
-.navbar li {
-  margin: 0 15px;
-}
-
-.navbar li a {
-  color: white;
-  font-weight: bold;
-  transition: all 1s;
-}
-
-.navbar a:hover {
-  color: black;
-}
 
 /* Fin globales */
 
 
-/* index */
-.header__contenido {
+ /* index */
+ /* .header__contenido {
   width: 100%;
 }
 
@@ -171,7 +100,7 @@ ul {
   display: inline-block;
   transition: transform 0.5s;
   text-decoration: none;
-}
+}  */
 
 
 /* Fin index */
@@ -504,10 +433,10 @@ label {
 .facebook {
   background-color: blue;
 }
-
 /* Fin Globales footer */
 
 /* BREAKPOINTS */
+/* Medias Productos */
 @media (max-width: 768px) {
   .header {
     display: none;
@@ -585,36 +514,10 @@ label {
   }
   
 }
-
 /* Fin Productos */
 
 
-/* BREAKPOINTS */
 /* Index */
-@media (max-width:375px) {
-  .logo {
-    width: 150px;
-    height: 100px;
-  }
-  
-  .ul-index {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(3, auto);
-    gap: 5px;
-  }
-  
-  .navbar {
-    border: none;
-  }
-  
-  .item {
-    font-size: 15px;
-  }
-}
-/* Fin index */
-
-/* Productos */
 @media (max-width:870px) {
   .logo {
     width: 200px;
@@ -648,11 +551,30 @@ label {
     font-size: 17px;
   }
 }
-/* Fin Producto */
+@media (max-width:375px) {
+  .logo {
+    width: 150px;
+    height: 100px;
+  }
+  
+  .ul-index {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, auto);
+    gap: 5px;
+  }
+  
+  .navbar {
+    border: none;
+  }
+  
+  .item {
+    font-size: 15px;
+  }
+}
+/* Fin index */
 
 
-
-/* MOBILE LAST */
 /* Medias Nosotros */
 @media (min-width: 768px) and (max-width: 872px) {
   .videoyt {

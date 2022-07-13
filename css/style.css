@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+img {
+  display: inline-block; }
+
+html {
+  font-family: 'Inconsolata', monospace;
+  background-color: #630606;
+  background-size: contain; }
+
+.header {
+  background-color: #E83A14;
+  color: #e2e8f0;
+  padding: 30px 20px; }
+
+a {
+  font-size: 28px; }
+
+p {
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 0 auto; }
+
+ul {
+  list-style-type: none; }
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.content__title {
+  color: white;
+  font-size: 40px;
+  transition: all 1s; }
+
+.content__title:hover {
+  color: black; }
+
+.navbar {
+  display: flex; }
+
+.navbar li {
+  margin: 0 15px; }
+
+.navbar li a {
+  color: white;
+  font-weight: bold;
+  transition: all 1s; }
+
+.navbar a:hover {
+  color: black; }
+
+.header__contenido {
+  width: 100%; }
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative; }
+
+.monto {
+  display: inline-block;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  background-color: #890F0D;
+  border-radius: 20px 0 20px 0;
+  color: white;
+  position: absolute;
+  left: 0;
+  padding: 0 20px;
+  margin: 0 0 0 20px; }
+
+.logo {
+  width: 300px;
+  height: 200px;
+  border-radius: 80px;
+  margin: 80px 0 0 0;
+  animation: logotitilante 1s ease 0s 3 normal forwards; }
+
+@keyframes logotitilante {
+  0%,
+  50%,
+  100% {
+    opacity: 1; }
+  25%,
+  75% {
+    opacity: 0; } }
+
+.navbar__index {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px #D9CE3F;
+  border-radius: 30px;
+  margin: 20px 40px; }
+
+.navbar__index a:hover {
+  transform: translateY(-5px);
+  background-color: rgba(232, 58, 20, 0.7); }
+
+.menu__index {
+  color: white;
+  font-size: 45px;
+  margin: 8px;
+  text-align: left;
+  padding: 5px 20px;
+  width: 90%;
+  transition: transform 0.5s; }
+
+.menu__index:hover {
+  transform: translateX(5px); }
+
+.ul-index {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  list-style: none;
+  height: 180px; }
+
+.item {
+  color: #fff;
+  background-color: #E83A14;
+  padding: 20px;
+  margin: 20px 0 0 0;
+  font-size: 30px;
+  border-radius: 30px;
+  box-shadow: 15px 17px 19px -1px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  display: inline-block;
+  transition: transform 0.5s;
+  text-decoration: none; }
