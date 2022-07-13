@@ -1,0 +1,54 @@
+.flex {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+  }
+  
+  .footer {
+    width: 100%;
+    /* Color del footer */
+    background-color: #890F0D;
+    /* Posicionamiento de los item */
+    flex-direction: row-reverse;
+    position: relative;
+  }
+  
+  .contenedor_icono {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    /* borde */
+    border-radius: 50%;
+    margin: 10px;
+    text-decoration: none;
+  }
+  
+  /* color de fondo del item */
+  .icono {
+    font-size: 50px;
+    color: white;
+  }
+  
+  /* color de fondo del item */
+  .instagram {
+    background-color: pink;
+  }
+  
+  /* color de fondo del item */
+  .whatsapp {
+    background-color: green;
+  }
+  
+  /* color de fondo del item */
+  .twitter {
+    background-color: lightblue;
+  }
+  
+  /* color de fondo del item */
+  .facebook {
+    background-color: blue;
+  }

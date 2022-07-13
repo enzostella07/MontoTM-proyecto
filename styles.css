@@ -408,28 +408,27 @@ label {
   text-decoration: none;
 }
 
-/* color de fondo del item */
+
 .icono {
   font-size: 50px;
   color: white;
 }
 
-/* color de fondo del item */
+
 .instagram {
   background-color: pink;
 }
 
-/* color de fondo del item */
+
 .whatsapp {
   background-color: green;
 }
 
-/* color de fondo del item */
+
 .twitter {
   background-color: lightblue;
 }
 
-/* color de fondo del item */
 .facebook {
   background-color: blue;
 }
