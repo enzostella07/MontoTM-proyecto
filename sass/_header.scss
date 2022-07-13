@@ -16,7 +16,7 @@
     font-weight: bold;
     font-size: 50px;
     text-align: center;
-    background-color: #890F0D;
+    background-color: $rojoOscuro;
     border-radius: 20px 0 20px 0;
     color: white;
     position: absolute;
@@ -50,7 +50,7 @@
 .navbar__index {
     display: flex;
     flex-direction: column;
-    border: solid 2px #D9CE3F;
+    border: solid 2px $amarilloOscuro;
     border-radius: 30px;
     margin: 20px 40px;
 
@@ -130,7 +130,7 @@ div {
     display: inline-block;
     padding: 10px;
     margin-bottom: 30px;
-    background-color: #d9cf3fda;
+    background-color: $amarilloOscuro;
     border-radius: 10px 0px 10px 0px;
     animation: subtitulo 3s ease 0s 1 normal forwards;
   }
@@ -152,7 +152,7 @@ div {
     font-style: italic;
     font-size: 25px;
     text-decoration: underline;
-    background-color: #d9cf3fda;
+    background-color: $amarilloOscuro;
     animation: texto 5s ease 1 normal forwards;
   }
   

@@ -98,7 +98,7 @@ ul {
 .navbar__index {
   display: flex;
   flex-direction: column;
-  border: solid 2px #D9CE3F;
+  border: solid 2px #d9cf3fda;
   border-radius: 30px;
   margin: 20px 40px; }
   .navbar__index a:hover {
