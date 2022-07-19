@@ -404,6 +404,8 @@ label {
     border: none; }
   .navbar__index {
     border: none; }
+  .menu__index {
+    text-align: center; }
   .item {
     font-size: 17px; } }
 
