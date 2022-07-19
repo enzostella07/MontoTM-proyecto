@@ -47,26 +47,30 @@
     color: white;
     font-size: 40px;
     transition: all 1s;
+
+    &:hover {
+      color: black;
+    }
   }
   
-  .content__title:hover {
-    color: black;
-  }
   
   .navbar {
     display: flex;
+
+    & li {
+      margin: 0 15px;
+    }
+
+    & li a {
+      color: white;
+      font-weight: bold;
+      transition: all 1s;
+    }
+
+    & a:hover {
+      color: black;
+    }
   }
   
-  .navbar li {
-    margin: 0 15px;
-  }
   
-  .navbar li a {
-    color: white;
-    font-weight: bold;
-    transition: all 1s;
-  }
   
-  .navbar a:hover {
-    color: black;
-  }
