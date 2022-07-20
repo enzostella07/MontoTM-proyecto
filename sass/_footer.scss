@@ -1,3 +1,26 @@
+  $redesSociales: (
+  instagram: #c92d8f,
+   twitter: #55acee,
+  facebook: blue,
+   whatsapp: lightgreen,
+ );
+
+
+ @each $nombre, $color in $redesSociales{
+   .link-#{$nombre} {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    /* borde */
+    border-radius: 50%;
+    margin: 10px;
+    text-decoration: none;
+     background-color: $color;
+   }
+ }
+
 .flex {
     display: flex;
     justify-content: flex-end;
@@ -18,40 +41,8 @@
     bottom: 0;
   }
   
-  .contenedor_icono {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 80px;
-    height: 80px;
-    /* borde */
-    border-radius: 50%;
-    margin: 10px;
-    text-decoration: none;
-  }
-  
   /* color de fondo del item */
   .icono {
     font-size: 50px;
     color: white;
-  }
-  
-  /* color de fondo del item */
-  .instagram {
-    background-color: pink;
-  }
-  
-  /* color de fondo del item */
-  .whatsapp {
-    background-color: green;
-  }
-  
-  /* color de fondo del item */
-  .twitter {
-    background-color: lightblue;
-  }
-  
-  /* color de fondo del item */
-  .facebook {
-    background-color: blue;
   }
