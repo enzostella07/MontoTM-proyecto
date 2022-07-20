@@ -41,15 +41,15 @@ ul {
   .content__title:hover {
     color: black; }
 
-.navbar {
+.barradenavegacion, .navbar {
   display: flex; }
-  .navbar li {
+  .barradenavegacion li, .navbar li {
     margin: 0 15px; }
-  .navbar li a {
+  .barradenavegacion li a, .navbar li a {
     color: white;
     font-weight: bold;
     transition: all 1s; }
-  .navbar a:hover {
+  .barradenavegacion a:hover, .navbar a:hover {
     color: black; }
 
 .header__contenido {
@@ -120,6 +120,7 @@ ul {
   height: 180px; }
 
 .item {
+  display: inline-block;
   color: #fff;
   background-color: #E83A14;
   padding: 20px;
@@ -128,9 +129,8 @@ ul {
   border-radius: 30px;
   box-shadow: 15px 17px 19px -1px rgba(0, 0, 0, 0.75);
   text-align: center;
-  display: inline-block;
-  transition: transform 0.5s;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: transform 0.5s; }
 
 div {
   margin-top: 5px;
@@ -333,7 +333,6 @@ label {
       font-size: 13px;
       font-weight: bold; }
 
-/* Fin Contacto */
 .flex {
   display: flex;
   justify-content: flex-end;
