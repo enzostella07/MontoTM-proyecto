@@ -1,66 +1,69 @@
 //  Index 
 @media (max-width:870px) {
-  .logo {
-    width: 200px;
-    height: 150px;
-  }
-  
-  .ul-index {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-  }
-  
-  .item {
-    font-size: 15px;
-  }
+    .logo {
+        width: 200px;
+        height: 150px;
+    }
+
+    .ul-index {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .item {
+        font-size: 15px;
+    }
 }
 
 
 @media (max-width:450px) {
-  .ul-index {
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(3, auto);
-    gap: 5px;
-  }
-  
-  .navbar {
-    border: none;
-  }
-  .navbar__index {
-    border: none
-  }
+    .ul-index {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, auto);
+        gap: 5px;
+    }
 
-  .menu__index {
-    text-align: center;
-  }
-  
-  .item {
-    font-size: 17px;
-  }
+    .navbar__index {
+        border: none;
+        margin-bottom: 100px;
+    }
+
+    .menu__index {
+        text-align: center;
+    }
+
+    .item {
+        font-size: 17px;
+    }
+
+    .vistos__title {
+        margin: 50px 0px 50px 0px;
+    }
 }
+
 @media (max-width:375px) {
-  .logo {
-    width: 150px;
-    height: 100px;
-  }
-  
-  .ul-index {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(3, auto);
-    gap: 5px;
-  }
-  
-  .navbar {
-    border: none;
-  }
+    .logo {
+        width: 150px;
+        height: 100px;
+    }
 
-  
-  .item {
-    font-size: 15px;
-  }
+    .ul-index {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, auto);
+        gap: 5px;
+    }
+
+    .item {
+        font-size: 15px;
+    }
+
+    .vistos__title {
+        margin: 50px 0px 50px 0px;
+    }
 }
+
 //  Fin Medias index 
 
 
@@ -108,10 +111,11 @@
     .header {
         display: none;
     }
-    
+
     .contenedor__titulos {
         font-size: 15px;
     }
+
     .nuestrosproductos {
         display: inline-block;
         padding: 10px;
@@ -157,6 +161,7 @@
     .header {
         display: none;
     }
+
     .videoyt {
         width: 400px;
         height: 250px;
@@ -168,6 +173,7 @@
     .header {
         display: none;
     }
+
     .montotm {
         width: 560px;
     }
@@ -204,6 +210,7 @@
         width: 400px;
         box-shadow: none;
     }
+
     .footer {
         width: 560px;
     }

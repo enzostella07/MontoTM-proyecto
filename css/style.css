@@ -182,18 +182,14 @@ ul {
 .vistos {
   margin-top: 40px;
   padding: 0 20px; }
-
-.vistos__title {
-  margin-bottom: 40px;
-  text-align: center;
-  background-color: #d9cf3fda; }
-
-.vistos__grid {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 50px;
-  /* row-gap: espaciar verticalmente */
-  /* column-gap: horizontalmente */ }
+  .vistos__title {
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+    background-color: #d9cf3fda; }
+  .vistos__grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px; }
 
 div {
   margin-top: 5px;
@@ -486,14 +482,15 @@ label {
     grid-template-columns: 100%;
     grid-template-rows: repeat(3, auto);
     gap: 5px; }
-  .navbar {
-    border: none; }
   .navbar__index {
-    border: none; }
+    border: none;
+    margin-bottom: 100px; }
   .menu__index {
     text-align: center; }
   .item {
-    font-size: 17px; } }
+    font-size: 17px; }
+  .vistos__title {
+    margin: 50px 0px 50px 0px; } }
 
 @media (max-width: 375px) {
   .logo {
@@ -504,10 +501,10 @@ label {
     grid-template-columns: 100%;
     grid-template-rows: repeat(3, auto);
     gap: 5px; }
-  .navbar {
-    border: none; }
   .item {
-    font-size: 15px; } }
+    font-size: 15px; }
+  .vistos__title {
+    margin: 50px 0px 50px 0px; } }
 
 /* Medias Productos */
 @media (max-width: 768px) {
