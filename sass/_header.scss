@@ -146,8 +146,14 @@
 
 
 .vistos {
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 40px;
   padding: 0 20px;
+  width: 100%;
+  background-color: red;
+  justify-content: space-evenly ;
+
 
   &__title {
     margin: 50px 0px 50px 0px;
@@ -233,6 +239,10 @@ div {
   }
   
   /* GRID */
+  .producto{
+    display: flex;
+  }
+
    .producto__grid { 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -277,8 +287,13 @@ div {
   }
   
   .quienessomos {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
     background-color: gray;
-    height: 515px;
+    padding: 50px 0;
+    // height: 515px;
     margin-bottom: 107px;
 
     &__title {
@@ -301,6 +316,8 @@ div {
   
   .videoyt {
     box-shadow: 0px 0px 19px 18px rgba(0, 0, 0, 0.81);
+    width: 50%;
+    height: 500px;
   }
   
   /* Fin Nosotros */

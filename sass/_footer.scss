@@ -31,12 +31,11 @@
   
   .footer {
     height: 120px;
-    width: 100%;
+    max-width: 100%;
     margin-top: 100px;
     /* Color del footer */
     background-color: #890F0D;
     /* Posicionamiento de los item */
-    flex-direction: row-reverse;
     position: relative;
     bottom: 0;
   }
@@ -45,4 +44,9 @@
   .icono {
     font-size: 50px;
     color: white;
+  }
+
+  //Breakpoints
+  @media (max-width: 768px) {
+
   }

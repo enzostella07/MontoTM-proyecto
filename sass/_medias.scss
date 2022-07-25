@@ -68,6 +68,12 @@
 
 
 /* Medias Productos */
+@media (max-width:1065px) {
+    .producto__grid {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
 @media (max-width: 768px) {
     .header {
         display: none;
@@ -143,16 +149,20 @@
     .producto__grid {
         grid-template-columns: repeat(1, 1fr);
     }
+}
 
-
+@media (max-width: 340px) {
+    .tarjeta__producto {
+        width: 100px;
+        height: 200px;
+      }
 }
 
 /* Fin Productos */
 
 /* Medias Nosotros */
-@media (min-width: 768px) and (max-width: 872px) {
+@media (min-width: 768px) and (max-width: 1200px) {
     .videoyt {
-        width: 500px;
         height: 280px;
     }
 }
@@ -163,7 +173,6 @@
     }
 
     .videoyt {
-        width: 400px;
         height: 250px;
     }
 
@@ -175,15 +184,14 @@
     }
 
     .montotm {
-        width: 560px;
+        width: 100%;
     }
 
     .quienessomos {
-        width: 560px;
+        width: 100%;
     }
 
     .videoyt {
-        width: 400px;
         height: 200px;
     }
 
@@ -195,14 +203,6 @@
 @media (min-width: 375px) and (max-width:425px) {
     .header {
         display: none;
-    }
-
-    .montotm {
-        width: 560px;
-    }
-
-    .quienessomos {
-        width: 560px;
     }
 
     .videoyt {
@@ -221,24 +221,24 @@
         display: none;
     }
 
-    .montotm {
-        width: 570px;
+    .quienessomos {
+        width: 100%;
     }
 
-    .quienessomos {
-        width: 560px;
-        height: 550px;
+    .montotm {
+        width: 100%;
     }
+
 
     .videoyt {
         height: 250px;
         width: 350px;
     }
 
-
     .footer {
-        width: 560px;
+        width: 100%;
     }
+
 }
 
 /* Fin Medias Nosotros */
