@@ -101,6 +101,80 @@
     text-decoration: none;
     transition: $transformde05;
 }
+
+.card {
+  background-color: gray;
+  padding: 20px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+}
+
+.card__header {
+  position: relative;
+}
+
+.card__header img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card__header small {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #fff;
+  padding: 8px;
+  position: absolute;
+  right: 0;
+  border-bottom-left-radius: 10px;
+}
+
+.card__title {
+  margin-bottom: 20px;
+}
+
+.card__description {
+  margin-bottom: 40px;
+}
+
+.card__link {
+  background-color: $rojoOscuro ;
+  color: #fff;
+  width: 100%;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.card__header--strong {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.vistos {
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+.vistos__title {
+  margin-bottom: 40px;
+  text-align: center;
+  background-color: $amarilloOscuro;
+}
+
+.vistos__grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 50px;
+  /* row-gap: espaciar verticalmente */
+  /* column-gap: horizontalmente */
+}
 //fin index
 
 //productos
@@ -252,7 +326,7 @@ div {
     font-size: 35px;
     text-decoration: underline;
     padding: 1%;
-    margin: 15px 0px 15px 0px;
+    margin: 15px 0px 15px 20px;
     background-color: yellow;
     border-radius: 30px 0px 30px 0px;
     text-align: center;
@@ -293,8 +367,10 @@ div {
     font-size: 20px;
   
   }
-  
-  
+
+  .formulario {
+    margin-left: 20px;
+  }
   
   .pais {
     margin-bottom: 70px;
